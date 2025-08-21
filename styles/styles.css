@@ -9,3 +9,8 @@ header{
     margin:0;
     display:block;
 }
+
+#navbar-header{
+	display: flex;
+	justify-content: space-between;
+}
