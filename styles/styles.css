@@ -18,6 +18,8 @@ header #header-links a{
 	text-decoration: none;
 }
 #navbar-header{
+	padding:0 90px;
+	align-items: stretch;
 	display: flex;
 	justify-content: space-between;
 }
@@ -28,16 +30,56 @@ header #header-links a{
 	color:#F9FAF8;
 }
 
-#header-website{
+#container-header{
+	gap:20px;
 	display: flex;
-	flex-direction: row;
+	padding: 60px 110px;
+	height:300px;
 	align-items:center;
-	align-content:center;
+	justify-content:center;
 }
 
-#img-header{ 
-	background-color:red;
-	height:auto;
+#text-header{
+	width: 100%;
+	height:100%;
+	flex:1;
+	margin:10px;
+}
+#text-header h1{
+	font-size:48px;
+	color: #F9FAF8;
+}
+#text-header p{
+	font-size:18px;
+	color: #E5E7EB;
+	padding:0 90px 20px 0;
+}
+#text-header button{
+	height:25px;
+	width: 90px;
+	font-family:'Roboto',sans-serif;
+	font-weight:bold;
+	background-color:#3882F6;
+	color:#F9FAF8;
+	padding:2px;
+	border:0;
+	border-radius:5px;
+}
+#img-header{
+	overflow:hidden;
+	margin:10px;
+	flex:1;
+	background-color:grey;
+	width:100%;
+	height:100%;
+}
+#img-header img{
+	display: block;
+	object-position:center;
+	object-fit:fill;
+	width:100%;
+	height:100%;
+	
 }
 
 
